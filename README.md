@@ -5,4 +5,24 @@ This code is part of the material of the course [Computer Vision and Machine Per
 
 **This code is provided without any warranty about its usability. It is for educational purposes and should be regarded as such.**
 
+## Detection
+To run the detection node download
+- yolov2.cfg from https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg
+- yolov2.weights from https://pjreddie.com/media/files/yolov2.weights
+and copy them in the folder "model"
+
+Then type
+```
+rosrun yolo_ros_detect yolo_detect.py
+```
+
+## Visualization
+To run the visualization node type
+```
+rosrun yolo_ros_detect visualizer.py
+```
 ![result](result.jpg)
+
+
+
+
