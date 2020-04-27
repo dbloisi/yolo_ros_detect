@@ -21,6 +21,9 @@ To run the visualization node type
 ```
 rosrun yolo_ros_detect visualizer.py
 ```
+
+## Results
+Detection results on a frame from ![this bag](http://profs.scienze.univr.it/~bloisi/corsi/lezionicf/office-r200.bag) are shown below
 ![result](result.jpg)
 
 
